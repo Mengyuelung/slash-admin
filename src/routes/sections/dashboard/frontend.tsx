@@ -28,6 +28,20 @@ export function getFrontendDashboardRoutes(): RouteObject[] {
 			],
 		},
 		{
+			path: "police",
+			children: [
+				{ index: true, element: <Navigate to="overview" replace /> },
+				{
+					path: "community",
+					children: [
+						{ index: true, element: <Navigate to="overview" replace /> },
+						{ path: "overview", element: Component("/pages/police/community/overview") },
+						{ path: "triplicate-form", element: Component("/pages/police/community/triplicate-form") },
+					],
+				},
+			],
+		},
+		{
 			path: "management",
 			children: [
 				{ index: true, element: <Navigate to="user" replace /> },
