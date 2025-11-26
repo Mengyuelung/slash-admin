@@ -92,6 +92,14 @@
 			"workbench": "工作台",
 			"analysis": "分析",
 			"management": "管理",
+			"police": {
+				"index": "警务",
+				"community": {
+					"index": "社区警务",
+					"overview": "概览",
+					"triplicate_form": "三联单"
+				}
+			},
 			"user": {
 				"index": "用户",
 				"profile": "个人资料",

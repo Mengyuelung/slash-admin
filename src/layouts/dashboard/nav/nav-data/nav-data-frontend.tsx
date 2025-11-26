@@ -19,6 +19,26 @@ export const frontendNavData: NavProps["data"] = [
 		],
 	},
 	{
+		name: "sys.nav.police.index",
+		items: [
+			{
+				title: "sys.nav.police.community.index",
+				path: "/police/community",
+				icon: <Icon icon="local:ic-workbench" size="24" />,
+				children: [
+					{
+						title: "sys.nav.police.community.overview",
+						path: "/police/community/overview",
+					},
+					{
+						title: "sys.nav.police.community.triplicate_form",
+						path: "/police/community/triplicate-form",
+					},
+				],
+			},
+		],
+	},
+	{
 		name: "sys.nav.pages",
 		items: [
 			// management
